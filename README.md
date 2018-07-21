@@ -23,13 +23,13 @@ console.log(val);
 
 ## API
 
-getItem(iniStr, keyStr)
-setItem(iniStr, keyStr, value)
-setString(iniStr, settingsStr)
-parseIniString(iniStr)
-stringifyIniObject(iniObjStr)
-editIniFile(from, to, settings)
-editIniObject(iniObj, settings)
-keyStringToPath(keyStr)
-createSettings(arr)
-createSetting(path, value)
+* getItem(iniStr, keyStr)
+* setItem(iniStr, keyStr, value)
+* setString(iniStr, settingsStr)
+* parseIniString(iniStr)
+* stringifyIniObject(iniObjStr)
+* editIniFile(from, to, settings)
+* editIniObject(iniObj, settings)
+* keyStringToPath(keyStr)
+* createSettings(arr)
+* createSetting(path, value)
