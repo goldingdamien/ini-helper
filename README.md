@@ -8,7 +8,7 @@ Current this libary does not preserve ini comments due to a dependency.
 
 ## Usage
 
-```
+```javascript
 const fs = require('fs');
 
 const IniHelper = require('ini-helper');

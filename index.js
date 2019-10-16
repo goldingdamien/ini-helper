@@ -139,11 +139,21 @@ class IniHelper{
         };
     }
 
+    /**
+     * @param {object} iniObj
+     * @param {string}
+     * @return {string}
+     */
     _getItemFromPath(iniObj, path){
         const info = this._getItemRefAndKeyFromPath(iniObj, path);
         return info.ref[info.key];
     }
 
+    /**
+     * @param {object} iniObj
+     * @param {string} path
+     * @return {object|undefined}
+     */
     _getItemRefAndKeyFromPath(iniObj, path){
 
         //FIXES
@@ -181,6 +191,11 @@ class IniHelper{
         };
     }
     
+    /**
+     * @param {object} iniObj
+     * @param {string} path
+     * @param {*} value
+     */
     _setItemFromPath(iniObj, path, value){
         const info = _getItemRefAndKeyFromPath(iniObj, path);
         info.ref[info.key] = value;
