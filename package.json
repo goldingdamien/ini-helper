@@ -12,6 +12,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "ini": "^1.3.5"
+    "ini": "^1.3.6"
   }
 }
